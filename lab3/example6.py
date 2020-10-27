@@ -13,8 +13,8 @@ elif delta == 0 :
   root = - b / (2*a)
   print ("The root is", root)
 else :
-   root1 = str(( -b + (-delta)**0.5 ) / (2*a))
-   root1 = root1 + "i"
-   root2 = str(( -b - (-delta)**0.5 ) / (2*a))
-   root2 = root2 + "i"
+   d = "i" + str((-delta)**0.5 / 2*a )
+   e = str(-b / 2*a)
+   root1 = e + "+" + d 
+   root2 = e + "-" + d  
    print ("The roots are", root1, ",", root2)
